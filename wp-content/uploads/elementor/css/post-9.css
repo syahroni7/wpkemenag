@@ -1,5 +1,39 @@
-.elementor-kit-9{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-kit-9 e-page-transition{background-color:#FFBC7D;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){--kit-widget-spacing:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */.elementor-sticky--effects {
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-    background: rgba(255, 255, 255, 0.25) !important;
+.elementor-kit-9{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-kit-9 e-page-transition{background-color:#FFBC7D;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){--kit-widget-spacing:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */@media (max-width: 1024px) {
+   .elementor-site-logo img {
+      max-width: 70px;
+   }
+}
+
+/* --- STYLE DASAR MENU --- */
+.elementor-kit-9 .elementor-item {
+    padding: 16px 32px;             /* area hover lebih lebar */
+    margin: 0 4px;                  /* jarak antar menu */
+    border-radius: 4px;             /* sudut membulat */
+    transition: all 0.25s ease;     /* animasi halus */
+    display: flex;
+    align-items: center;
+}
+
+/* --- HOVER EFFECT (warna transparan) --- */
+.elementor-kit-9 .elementor-item:hover {
+    background: rgba(59, 116, 0, 0.18); /* hijau #3B7400 dengan 18% transparansi */
+    color: #3B7400 !important;          /* warna teks */
+}
+
+/* --- ACTIVE MENU --- */
+.elementor-kit-9 .elementor-item.elementor-item-active {
+    background: rgba(59, 116, 0, 0.28); /* lebih tebal agar terlihat aktif */
+    color: #3B7400 !important;
+    font-weight: 600;
+}
+
+/* --- SUBMENU (opsional) --- */
+.elementor-kit-9 .sub-menu .elementor-item {
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+
+.elementor-kit-9 .sub-menu .elementor-item:hover {
+    background: rgba(59, 116, 0, 0.20);
+    color: #3B7400 !important;
 }/* End custom CSS */
